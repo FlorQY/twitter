@@ -1,0 +1,48 @@
+header {
+
+    padding: 1px 227px;
+     margin: -9px;
+     font-size: 12px;
+     width: 67.5%;
+     background-color: #7ed6e5;
+     color:	#FFFFFF
+  }
+h1{
+font-family:cursive;
+}
+body {
+background-image: url(../assets/images/fondo_de_pantalla.jpg);
+/* Nos aseguramos que la imagen de fondo este centrada vertical y
+horizontalmente en todo momento */
+background-position: center center;
+/* La imagen de fondo no se repite */
+background-repeat: no-repeat;
+/* La imagen de fondo está fija en el viewport, de modo que no se mueva cuando
+la altura del contenido supere la altura de la imagen. */
+background-attachment: fixed;
+/* La imagen de fondo se reescala cuando se cambia el ancho de ventana
+del navegador */
+background-size: cover;
+position: relative;
+}
+}
+
+textarea {
+position: absolute;
+
+}
+form{
+  margin-left: 50%;
+  margin-top:2%;
+  color:blue;
+}
+form textarea{
+  color:gray;
+}
+#caja {
+   width:50%;
+   height: 100%;
+   float:right;
+   border: 1px
+   solid black;
+ }
